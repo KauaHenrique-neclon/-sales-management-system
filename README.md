@@ -39,12 +39,8 @@ O projeto foi criado para facilitar o controle de produtos, estoque e vendas, of
 ```
 sales-management-system/
 │
-├── database/
-├── assets/
-├── interfaces/
-├── models/
-├── utils/
-├── main.py
+├── main.py  ### interface
+├── backend.py 
 └── README.md
 ```
 
@@ -60,75 +56,7 @@ O sistema foi desenvolvido utilizando conceitos de:
 - Separação de responsabilidades
 - Modularização do código
 - Reutilização de componentes
-- Boas práticas de organização de projetos Python
-
----
-
-## 🎯 Objetivo
-
-Este projeto foi desenvolvido com o objetivo de praticar conceitos importantes do desenvolvimento desktop utilizando Python, além de servir como uma solução funcional para gerenciamento de vendas e estoque.
-
-Durante o desenvolvimento, busquei criar uma aplicação organizada, de fácil manutenção e preparada para futuras melhorias.
-
----
-
-## 📸 Funcionalidades Futuras
-
-- Login de usuários
-- Controle de permissões
-- Dashboard com gráficos
-- Relatórios em PDF
-- Backup automático do banco
-- Exportação para Excel
-- Cadastro de clientes
-- Cadastro de fornecedores
-- Sistema de caixa
-- Controle financeiro
-
----
-
-## 💻 Como executar
-
-Clone o projeto:
-
-```bash
-git clone https://github.com/KauaHenrique-neclon/-sales-management-system.git
-```
-
-Entre na pasta:
-
-```bash
-cd -sales-management-system
-```
-
-Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-Execute o projeto:
-
-```bash
-python main.py
-```
-
----
-
-## 📚 Aprendizados
-
-Este projeto marcou uma etapa importante da minha evolução como desenvolvedor.
-
-Durante seu desenvolvimento pude aprofundar conhecimentos em:
-
-- Python
-- Banco de Dados SQLite
-- Interface gráfica com CustomTkinter
-- Organização de projetos
-- Programação Orientada a Objetos
-- Boas práticas de desenvolvimento
-
-Cada funcionalidade implementada representou um novo aprendizado e contribuiu para minha evolução como desenvolvedor.
+- Boas práticas de organização de projetos Python.
 
 ---
 
